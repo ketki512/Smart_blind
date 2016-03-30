@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="category">
+        <item>NULL</item>
+        <item>HOT</item>
+        <item>TOO HOT</item>
+        <item>MODERATE</item>
+        <item>COLD</item>
+        <item>TOO COLD</item>
+
+    </string-array>
+
+    <string-array name="amb_linguistics_options">
+        <item>NuLL</item>
+        <item>DARK</item>
+        <item>DIM</item>
+        <item>BRIGHT</item>
+
+    </string-array>
+</resources>

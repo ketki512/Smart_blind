@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">Check_view</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_manipulate_rules">Manipulate_rules</string>
+    <string-array name="temp_lignusitic_values">
+        <item>Null</item>
+        <item>Too Hot</item>
+        <item>Hot</item>
+        <item>Moderate</item>
+        <item>Cold</item>
+        <item>Too Cold</item>
+    </string-array>
+
+    <string-array name="ambience_linguistic_values">
+        <item>Null</item>
+        <item>Dim</item>
+        <item>Bright</item>
+        <item>Dark</item>
+    </string-array>
+
+    <string-array name="conjuncts">
+        <item>Null</item>
+        <item>AND</item>
+        <item>OR</item>
+    </string-array>
+    <string-array name="rule_connectors">
+        <item>Null</item>
+        <item>AND</item>
+        <item>OR</item>
+    </string-array>
+
+
+
+    <string name="ui_label_serverURL">Server URL</string>
+    <string name="ui_et_serverURL_default">10.10.10.117:8080</string>
+    <string name="ui_label_requestMethod">JSON request method:</string>
+    <string name="ui_et_requestMethod_default">sendRulesToServer</string>
+    <string name="ui_et_Rule_default">IF temp IS hot AND ambience IS dim THEN blinds IS close</string>
+    <string name="ui_label_response_default">Server current time</string>
+    <string name="ui_btn_sendRequest">Start Service</string>
+    <string name="title_activity_temp_change_list">TempChangeListActivity</string>
+</resources>
